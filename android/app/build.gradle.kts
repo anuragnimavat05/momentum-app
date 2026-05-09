@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.momentum.momentum"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // ndkVersion = flutter.ndkVersion  // Comment out or remove this line
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
