@@ -1,0 +1,54 @@
+name: momentum
+description: "Momentum - A motivational productivity app designed to help users stay focused, build habits, reduce procrastination, and maintain daily momentum."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # Firebase
+  firebase_core: ^3.11.0
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+  firebase_messaging: ^15.2.0
+  firebase_storage: ^12.4.0
+  google_sign_in: ^6.2.2
+  
+  # State Management
+  provider: ^6.1.4
+  
+  # UI/UX
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  fl_chart: ^0.69.2
+  
+  # Utilities
+  shared_preferences: ^2.3.5
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  
+  # Audio for Focus Mode
+  audioplayers: ^6.1.0
+  
+  # URL Launcher for links
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+timezone: ^5.0.0
